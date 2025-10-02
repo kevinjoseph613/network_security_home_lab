@@ -55,7 +55,7 @@ groups, sudo groupadd cybersec, sudo usermod -aG sudo sally, sudo usermod -aG cy
 mkdir lab1, ls -ld lab1 / With these commands we can make a directory and determine which group of users have pemrission to read, write, execute, or all.  Upon typing the command "ls -ld lab1", the owner and group owner are both kjoseph. (me, the main user) To determine the permissions of the group owner, owner, and then the others you have to group the letters and symbols of three when going from left to right. You first ignore the first letter or symbol because that will tell you if its a directory or file. Afterwards the first three will be the owner's permissions, then the next three will be the group owner's permissions and the last three will be the general public's permissions. In this case both the owner and group can read, write and execute files. However, the general public can only read and execute.
 
 **Screenshot:**
-![Task 9](..images/task9.png)
+![Task 9](../images/task9.png)
 
 ## Task 10: Creating Bash Files and use of Nano
 
