@@ -74,7 +74,7 @@ ls -la helloWorld / After creating the bash file "helloWorld" we have decided to
 ## Task 12: Use of Access Control Lists
 
 **Commands / Description**: 
-getfacl, setfacl -m u:sally:rw helloWorld / Although I have previously shown commands to show and modify permissions of all users, with the use of Access Control Lists (ACLS) this is a more efficient and flexible way of managing the 'crowd'. With the "getfacl" command we the prompt shows us not only the permisisons of thr owner, group, and others but it shows us the names of everyone involved in one setting. The "setfacl" command not only helps us modify permissions for different groups but specific users with certain permisisions to maintain the hierarchy of a system. For our example, I used "sally" and gave her only read and write permissions.
+getfacl, setfacl -m u:sally:rw helloWorld / Although I have previously shown commands to show and modify permissions of all users, with the use of Access Control Lists (ACL) this is a more efficient and flexible way of managing the 'crowd'. With the "getfacl" command we the prompt shows us not only the permisisons of thr owner, group, and others but it shows us the names of everyone involved in one setting. The "setfacl" command not only helps us modify permissions for different groups but specific users with certain permisisions to maintain the hierarchy of a system. For our example, I used "sally" and gave her only read and write permissions.
 
 **Screenshot:**
 ![Task 12](..images/task12.png)
