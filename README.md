@@ -9,7 +9,4 @@ This repository highlights all of my cybersecurity home lab projects which consi
 
 ### 1 Network Security Tools
 - [The Linux Command Line](1%20Network%20Security%20Tools/The%20Linux%20Command%Line.md)
-=======
-# network_security_home_lab
-A collection of home lab projects that help explore security concepts without touching production systems.
->>>>>>> d6c0e65926e1c2d5b09aeb303964d55f9d2c4c51
+
