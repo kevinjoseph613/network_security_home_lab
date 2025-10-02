@@ -64,7 +64,7 @@ mkdir lab1, ls -ld lab1 / With these commands we can make a directory and determ
 cd lab1, nano helloWorld, #!/bin/bash echo "Hello World!, chmod +x helloWorld, ./helloWorld / With this task we change our directory by adding a new bash file called "helloWorld". Our goal is to run a program that exceutes "Hello World!" by making it executable and calling its path. When we call nano, this opens up a small editor that's user-friendly and simple. Here we write what we want to see upon calling this program and upon completion we save and exit and make this executable so we can run it. This was a sucess after we got our desired output.
 
 **Screenshot:**
-![Task 10](..images/task10.png)
+![Task 10](../images/task10.png)
 
 ## Task 11: Additional Viewing of Permissions and Modifications
 
@@ -77,4 +77,4 @@ ls -la helloWorld / After creating the bash file "helloWorld" we have decided to
 getfacl, setfacl -m u:sally:rw helloWorld / Although I have previously shown commands to show and modify permissions of all users, with the use of Access Control Lists (ACL) this is a more efficient and flexible way of managing the 'crowd'. With the "getfacl" command we the prompt shows us not only the permisisons of thr owner, group, and others but it shows us the names of everyone involved in one setting. The "setfacl" command not only helps us modify permissions for different groups but specific users with certain permisisions to maintain the hierarchy of a system. For our example, I used "sally" and gave her only read and write permissions.
 
 **Screenshot:**
-![Task 12](..images/task12.png)
+![Task 12](../images/task12.png)
